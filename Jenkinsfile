@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main' url: 'https://github.com/travisv12/TripCostCalculator.git'
+                git branch: 'main', url: 'https://github.com/travisv12/TripCostCalculator.git'
             }
         }
         stage('Build') {
